@@ -1,0 +1,117 @@
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: black;
+  color: white;
+}
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #111;
+    gap: 20px;
+  }
+  
+  .logo {
+    width: 30px;
+  }
+  .img1{
+    width: 200px;
+    height: 60px;
+  }
+  .img2{
+    width: 200px;
+    height: 110px;
+  }
+  
+  .menu span {
+    margin: 0 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .title {
+    text-align: center;
+    margin: 0 auto;
+    background: white;
+    width: 602px;
+    height: 75px;
+    border-radius: 30px;
+    color: black;
+  }
+  
+  .position-demo {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px 0;
+  }
+  
+  .relative-box {
+    position: relative;
+    background: #3a3a3a;
+    padding: 40px;
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .relative {
+    background: lime;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+  }
+  
+  .absolute-box {
+    background: red;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .circle {
+    border-radius: 50px;
+    width: 100px;
+    left: 25px;
+  }
+  
+  .info-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px 0;
+  }
+  
+  .info-card {
+    background: #7d3a3a;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo-small {
+    width: 30px;
+  }
+  
+  .directions span {
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
